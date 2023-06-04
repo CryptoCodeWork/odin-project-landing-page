@@ -41,14 +41,22 @@ html {
 }
 
 /* Hero */
+.container-header {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
 .container-header-top {
-    display:flex ;
-    justify-content: center ;
-    gap: 306px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 240px;
 }
 
 .container-header-bot {
-    display:flex ;
+    display: flex;
+    width: 100%;
     justify-content: center ;
 }
 
