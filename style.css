@@ -101,4 +101,9 @@ html {
     width: 400px;
     height: 210px;
     background-color: #808080 ;
+    font-size: 18px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
