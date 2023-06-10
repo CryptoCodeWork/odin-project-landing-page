@@ -6,7 +6,7 @@ html {
 }
 
 * {
-    Border: 1px solid red
+    /* Border: 1px solid red; */
 }
 
 .hero-background {
@@ -46,6 +46,7 @@ html {
     display: flex;
     justify-content: center;
     width: 100%;
+    padding-bottom: 100px;
 }
 
 .header-center {
@@ -145,6 +146,7 @@ html {
 .illustration-with-text {
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 .illustration-img{
@@ -159,5 +161,87 @@ html {
 }
 
 /* Body Quote */
+.body-quote-full {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 36px;
+}
+
+.body-quote-center {
+    background-color: #E5E7EB;
+    width: 800px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.thor {
+    text-align: right;
+}
 
 /* Body Call To Action */
+.cta-full {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+
+.cta-center {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    background-color: #3882F6;
+    border-radius:6px;
+    height: 100px;
+    align-self: center;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta-text-tittle {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+
+.cta-text-secondary {
+    font-size: 12px;
+    color: white;
+}
+
+.cta-sign-up{
+    display: flex;
+}
+
+.cta-sign-up-button {
+    display: flex;
+    align-self: center;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	border-radius:6px;
+	border:1px solid white;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+    height: 21px;
+}
+.cta-sign-up-button:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.cta-sign-up-button:active {
+	position:relative;
+	top:1px;
+}
