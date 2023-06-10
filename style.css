@@ -38,26 +38,29 @@ html {
     font-size: 24px;
     color: #F9FAF8;
     padding: 10px 0px 10px 0px;
+    width: 200px ;
 }
 
 /* Hero */
-.container-header {
+.header-full {
     display: flex;
-    flex-wrap: wrap ;
     justify-content: center;
+    width: 100%;
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    width: 800px;
 }
 
 .container-header-top {
     display: flex;
-    width: 100%;
-    justify-content: center;
-    gap: 240px;
 }
 
 .container-header-bot {
     display: flex;
-    width: 100%;
-    justify-content: center ;
 }
 
 .hero-text-container {
@@ -69,7 +72,9 @@ html {
 .header-links{
     display:flex ;
     gap: 1rem ; 
+    width: 600px;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .header-sign-up {
@@ -107,3 +112,52 @@ html {
     justify-content: center;
     align-items: center;
 }
+
+/* Body Information */
+
+.body-top-full {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.body-top-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+}
+
+.random-info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.illustration-with-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration-img{
+	border-radius:6px;
+	border:3px solid #337fed;
+    width: 150px;
+    height: 150px;
+}
+
+.illustration-text {
+    text-align: center;
+}
+
+/* Body Quote */
+
+/* Body Call To Action */
