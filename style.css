@@ -5,10 +5,6 @@ html {
     min-width: 825px;
 }
 
-* {
-    /* Border: 1px solid red; */
-}
-
 .hero-background {
     background-color: #1F2937;
 }
